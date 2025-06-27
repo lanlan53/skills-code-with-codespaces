@@ -6,5 +6,16 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false ,
- "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+"customizations": {
+    "vscode": {
+        "extensions": [
+            "GitHub.copilot"
+        ]
+    },
+    "codespaces": {
+        "openFiles": [
+            "codespace.md"
+        ]
+    }
+}
 }
